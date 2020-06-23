@@ -28,7 +28,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 bool target_model_get(void *buff, size_t buffsz)
 {
-    snprintf(buff, buffsz, "%s", "OPENWRT_QEMU");
+    snprintf(buff, buffsz, "%s", "OPENWRT_ATH79");
 
     return true;
 }
@@ -49,7 +49,7 @@ bool target_sw_version_get(void *buff, size_t buffsz)
 
 bool target_platform_version_get(void *buff, size_t buffsz)
 {
-    snprintf(buff, buffsz, "%s", "OPENWRT_VM");
+    snprintf(buff, buffsz, "%s", "ATH79");
 
     return true;
 }
